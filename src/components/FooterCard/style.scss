@@ -1,0 +1,39 @@
+#footer-card {
+  text-align: left;
+  background-color: #313131;
+  height: 40vh;
+  padding: 3em 0px;
+  color: white;
+
+  .title {
+    font-size: 16pt;
+    text-align: left;
+    margin-bottom: 1em;
+  }
+
+  .item {
+    text-align: left;
+    padding: 8px 0px;
+  }
+
+  .img-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .newsletter {
+    margin-top: 2em;
+    span {
+      font-size: 16pt;
+      margin-right: 8px;
+    }
+
+
+    input {
+      border: 1px solid white;
+      background-color: transparent;
+      padding: 8px 8px;
+      margin-right: 8px;
+    }
+  }
+}

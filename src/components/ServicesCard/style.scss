@@ -1,0 +1,21 @@
+#services-card {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  .title {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 32pt;
+  }
+
+  .sub-title {
+    font-size: 18pt;
+  }
+
+  .service-icon {
+    height: 100px;
+    width: auto;
+  }
+}

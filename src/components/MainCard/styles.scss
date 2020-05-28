@@ -1,0 +1,54 @@
+#main-section {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  .main-text {
+    color: white;
+    padding-left: 180px;
+    
+    .title {
+      font-size: 56pt;
+    }
+
+    .description {
+      margin-top: 32px;
+      font-size: 16pt;
+    }
+  }
+
+  .menu {
+    width: 100%;
+    position: absolute;
+    bottom: -100px;
+
+    .menu-container {
+      background-color: white;
+      margin: 0px 15%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 100%;
+        min-height: 100px;
+        transition: 0.3s;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #a191b2;
+          color: white;
+        }
+
+        img {
+          padding-right: 16px;
+        }
+      }
+    }    
+
+  }
+}
