@@ -33,23 +33,23 @@ class MainCard extends React.Component {
         <div className="menu">
           <div className="menu-container">
             <div className="item">
-              <img src={img1} />
+              <img src={img1} alt="" />
               Localidad
             </div>
             <div className="item">
-              <img src={img2} />
+              <img src={img2} alt="" />
               Tratamiento
             </div>
             <div className="item">
-              <img src={img3} />
+              <img src={img3} alt="" />
               Fecha
             </div>
             <div className="item">
-              <img src={img4} />
+              <img src={img4} alt="" />
               Hora
             </div>
             <div className="item">
-              <img src={img5} />
+              <img src={img5} alt="" />
               Reservar
             </div>
           </div>

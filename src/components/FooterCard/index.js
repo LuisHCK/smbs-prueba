@@ -12,6 +12,7 @@ class StoreCard extends React.Component {
             <img
               style={{ width: "100%", height: "auto" }}
               src={storesIcon}
+              alt=""
             ></img>
           </div>
           <div className="col-xs-6 col-md-2">

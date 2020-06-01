@@ -22,7 +22,7 @@ class ServicesCard extends React.Component {
         <div className="row center-xs" style={{ marginTop: "4em" }}>
           <div className="col-xs-8 col-md-3">
             <div>
-              <img className="service-icon" src={img1}></img>
+              <img alt="" className="service-icon" src={img1}></img>
             </div>
             <div className="sub-title">Tu belleza</div>
             <p>
@@ -35,7 +35,7 @@ class ServicesCard extends React.Component {
 
           <div className="col-xs-8 col-md-3">
             <div>
-              <img className="service-icon" src={img2}></img>
+              <img alt="" className="service-icon" src={img2}></img>
             </div>
             <div className="sub-title">Tu belleza</div>
             <p>
@@ -47,7 +47,7 @@ class ServicesCard extends React.Component {
           </div>
           <div className="col-xs-8 col-md-3">
             <div>
-              <img className="service-icon" src={img3}></img>
+              <img alt="" className="service-icon" src={img3}></img>
             </div>
             <div className="sub-title">Tu belleza</div>
             <p>

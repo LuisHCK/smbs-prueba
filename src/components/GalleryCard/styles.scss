@@ -1,0 +1,71 @@
+$main-color: #a191b2;
+
+#gallery-card {
+  background-color: #eeeeee;
+
+  .row {
+    .gallery-item {
+      min-height: 450px;
+      background-size: cover;
+      margin-bottom: 15px;
+      position: relative;
+      cursor: pointer;
+      overflow: hidden;
+
+      .item-content {
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        min-height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transition: 0.5s;
+        bottom: -180px;
+
+        .action-button {
+          border: none;
+          background-color: $main-color;
+          color: white;
+          padding: 12px 45px;
+          border: none;
+          border-radius: 3em;
+          cursor: pointer;
+          font-size: 14pt;
+        }
+
+        h4 {
+          text-transform: uppercase;
+          font-family: cursive;
+          font-size: 18pt;
+          color: $main-color;
+          margin-bottom: 1em;
+          margin-top: 0px;
+        }
+
+        p {
+          padding: 0px 3em;
+          text-align: center;
+        }
+      }
+
+      &.full-row {
+        height: 550px;
+        .item-content {
+          width: 400px;
+          height: 100%;
+          top: 0;
+          right: 0;
+        }
+      }
+
+      &:hover {
+        .item-content {
+          bottom: 0px;
+        }
+      }
+    }
+  }
+}

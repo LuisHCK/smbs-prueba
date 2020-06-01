@@ -3,27 +3,31 @@ import "./App.css";
 
 // Import Components
 import NavBar from "./components/NavBar/";
-import MainCard from './components/MainCard/'
-import StoreCard from './components/StoreCard/'
-import ServicesCard from './components/ServicesCard/'
-import FooterCard from './components/FooterCard/'
+import MainCard from "./components/MainCard/";
+import StoreCard from "./components/StoreCard/";
+import ServicesCard from "./components/ServicesCard/";
+import FooterCard from "./components/FooterCard/";
+import GalleryCard from "./components/GalleryCard/";
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+      <NavBar />
 
       {/* Main Card */}
-      <MainCard></MainCard>
+      <MainCard />
 
       {/* Store card */}
-      <StoreCard></StoreCard>
+      <StoreCard />
 
       {/* Services card */}
-      <ServicesCard></ServicesCard>
-      
+      <ServicesCard />
+
+      {/* Gallery Card */}
+      <GalleryCard />
+
       {/* Footer card */}
-      <FooterCard></FooterCard>
+      <FooterCard />
     </div>
   );
 }
