@@ -6,7 +6,7 @@ $main-color: #a191b2;
   .section-title {
     color: $main-color;
     font-size: 24pt;
-    font-family: cursive;
+    
     margin: 3em 0px;
   }
   .product {
@@ -18,6 +18,12 @@ $main-color: #a191b2;
         height: 280px;
       }
     }
+  }
+
+  .title {
+    color: $main-color;
+    margin: 2em 0px;
+    font-size: 32pt;
   }
 
   .action-button {

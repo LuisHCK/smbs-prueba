@@ -50,7 +50,7 @@ export default class BlogCard extends Component {
     return (
       <div id="blog-card" className="row center-xs">
         <div className="col-xs-12">
-          <h3 className="section-title">BLOG</h3>
+          <div className="title">BLOG</div>
         </div>
         <div className="col-xs-12 col-md-11">
           <div className="row">{posts}</div>

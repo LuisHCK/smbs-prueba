@@ -4,10 +4,15 @@ $main-color: #a191b2;
   border-bottom: 1px solid #eeeeee;
   cursor: pointer;
 
+  .title {
+    color: $main-color;
+    margin: 2em 0px;
+    font-size: 32pt;
+  }
+
   .section-title {
     color: $main-color;
     font-size: 24pt;
-    font-family: cursive;
     margin: 3em 0px;
   }
 

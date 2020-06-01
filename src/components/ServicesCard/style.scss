@@ -1,3 +1,5 @@
+$main-color: #a191b2;
+
 #services-card {
   min-height: 100vh;
   display: flex;
@@ -6,7 +8,8 @@
   flex-direction: column;
 
   .title {
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: $main-color;
+    margin: 2em 0px;
     font-size: 32pt;
   }
 

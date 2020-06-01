@@ -42,7 +42,7 @@ export default class ProductsCard extends Component {
     return (
       <div id="products-card" className="row center-xs">
         <div className="col-xs-12">
-          <h3 className="section-title">PRODUCTOS DESTACADOS</h3>
+          <div className="title">PRODUCTOS DESTACADOS</div>
         </div>
         <div className="col-xs-12 col-md-11">
           <div className="row">{productItems}</div>

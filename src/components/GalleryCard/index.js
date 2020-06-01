@@ -85,7 +85,7 @@ class GalleryItem extends Component {
         style={{ backgroundImage: `url("${item.background}")` }}
       >
         <div className="item-content">
-          <h4>{item.title}</h4>
+          <h4 className="title">{item.title}</h4>
           <p className="description">{item.text}</p>
           <button className="action-button">Contratar</button>
         </div>
