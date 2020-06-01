@@ -20,7 +20,7 @@
   .menu {
     width: 100%;
     position: absolute;
-    bottom: -100px;
+    bottom: -120px;
 
     .menu-container {
       background-color: white;
@@ -49,6 +49,9 @@
         }
       }
     }    
+  }
 
+  .logo-container  {
+    cursor: pointer;
   }
 }

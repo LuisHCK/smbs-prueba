@@ -1,0 +1,34 @@
+$main-color: #a191b2;
+
+#products-card {
+  border-bottom: 1px solid #eeeeee;
+
+  .section-title {
+    color: $main-color;
+    font-size: 24pt;
+    font-family: cursive;
+    margin: 3em 0px;
+  }
+  .product {
+    min-height: 400px;
+    .image-container {
+      padding: 1.3em;
+      background-color: #eeeeee;
+      img {
+        height: 280px;
+      }
+    }
+  }
+
+  .action-button {
+    border: none;
+    background-color: $main-color;
+    color: white;
+    padding: 12px 45px;
+    border: none;
+    border-radius: 3em;
+    cursor: pointer;
+    font-size: 14pt;
+    margin: 4em 0px;
+  }
+}

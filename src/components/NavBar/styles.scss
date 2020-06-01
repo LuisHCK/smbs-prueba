@@ -1,5 +1,9 @@
+$main-color: #313131;
+$hover-color: #a191b2;
+$secondary-color: #242424;
+
 .nav-bar {
-  background-color: #313131;
+  background-color: $main-color;
   width: 100%;
   position: sticky;
   left: 0;
@@ -7,7 +11,7 @@
   z-index: 100;
 
   .nav-bar-container {
-    padding: 6px 22px;
+    padding: 0px 22px;
     display: flex;
     min-height: 64px;
     align-items: center;
@@ -37,7 +41,7 @@
       transition: 0.3s;
 
       &:hover {
-        background-color: #a191b2;
+        background-color: $hover-color;
       }
     }
   }
@@ -53,6 +57,37 @@
     }
     .text {
       width: 20%;
+    }
+  }
+
+  // Drop Down menu
+  #services {
+    position: relative;
+
+    .dropdown-menu {
+      position: absolute;
+      background-color: $main-color;
+      padding: 0px;
+      list-style: none;
+      text-align: center;
+      min-width: 200px;
+      transition: 0.3s;
+      display: none;
+      z-index: 1;
+      top: 4em;
+
+      li {
+        padding: 12px 0px;
+        &:hover {
+          background-color: $secondary-color;
+        }
+      }
+    }
+
+    &:hover {
+      .dropdown-menu {
+        display: block;
+      }
     }
   }
 }
